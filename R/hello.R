@@ -13,6 +13,18 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
+
+#' @title This is a title
+#'
+#' @description This is a description
+#'
+#' @param x The number
+#'
+#' @return The output from \code{\link{print}}
+#' @export
+#'
+#' @examples
+#' hello(5)
 hello <- function(x) {
   x^2
 }
